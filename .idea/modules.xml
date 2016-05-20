@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/myPercentSupportDemo/myPercentSupportDemo.iml" filepath="$PROJECT_DIR$/myPercentSupportDemo/myPercentSupportDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myanimation/myanimation.iml" filepath="$PROJECT_DIR$/myanimation/myanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myopengl/myopengl.iml" filepath="$PROJECT_DIR$/myopengl/myopengl.iml" />
       <module fileurl="file://$PROJECT_DIR$/phonelinstener/phonelinstener.iml" filepath="$PROJECT_DIR$/phonelinstener/phonelinstener.iml" />
     </modules>
   </component>

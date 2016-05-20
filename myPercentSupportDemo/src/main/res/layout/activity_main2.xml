@@ -36,7 +36,8 @@
         android:src="@drawable/ooo"
         android:scaleType="centerCrop"
         android:layout_below="@id/tv1"
-        app:layout_heightPercent="70%"/>
+        app:layout_heightPercent="60%"
+        app:layout_marginPercent="5%"/>
     <TextView
         android:layout_width="0dp"
         android:layout_height="0dp"
