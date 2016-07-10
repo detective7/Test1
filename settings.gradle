@@ -1,1 +1,1 @@
-include ':app', ':phonelinstener', ':myanimation', ':myPercentSupportDemo', ':myopengl'
+include ':app', ':phonelinstener', ':myanimation', ':myPercentSupportDemo', ':myopengl', ':mycustomview'
