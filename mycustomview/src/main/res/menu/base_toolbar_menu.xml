@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--app中有一个菜单(menu),showAsAction主要是针对这个菜单的显示起作用的，
+        它有三个可选项
+        always：总是显示在界面上
+        never：不显示在界面上，只让出现在右边的三个点中
+        ifRoom：如果有位置才显示，不然就出现在右边的三个点中-->
+    <!--右边两个按钮-->
+    <item
+        android:id="@+id/blue"
+        android:icon="@mipmap/blue"
+        android:title="blue"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ub"
+        android:icon="@mipmap/ub"
+        android:title="ub"
+        app:showAsAction="ifRoom" />
+
+    <!--右边...里面的两个按钮-->
+    <item
+        android:id="@+id/action_item1"
+        android:title="item_01"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:title="item_02"
+        app:showAsAction="never" />
+</menu>

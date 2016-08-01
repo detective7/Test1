@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Theme must chose AppCompat style-->
+
+    <!--Missing styles. Is the correct theme chosen for this layout?
+    Use the Theme combo box above the layout to choose a different layout,
+    or fix the theme style references.
+    Exception raised during rendering:
+    Attribute '?attr/colorAccent' not found.
+    Are you using the right theme? (Details) (3 similar errors not shown)
+    Failed to find '?attr/colorAccent' in current theme.
+    (6 similar errors not shown) -->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000aa">
+        <!--自定义控件-->
+        <TextView
+            android:id="@+id/tv"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clock" />
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
