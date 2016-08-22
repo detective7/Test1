@@ -8,6 +8,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     TopBar topbar;
+    CustomPart part;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "左边按钮", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this,ToolBarActivity.class);
                 MainActivity.this.startActivity(intent);
+                MainActivity.this.finish();
             }
 
             @Override
@@ -28,5 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "右边按钮", Toast.LENGTH_SHORT).show();
             }
         });
+
+        part = (CustomPart)this.findViewById(R.id.customPart);
+        part.setSweepValue(90);
     }
 }
