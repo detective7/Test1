@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn, btn2;
+    private Button btn, btn2,recognize;
     private ImageView img;
 
     @Override

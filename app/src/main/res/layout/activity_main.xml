@@ -30,4 +30,10 @@
         android:layout_gravity="center_horizontal"
         android:gravity="left"
         android:text="linearLayout分割线\n--获取按钮坐标\n--测量layout的宽高\n--tableLayout的Stretchcolumns的功能\n-保存layout截图\n--weight在0.0dp和match_parent下的区别\n--改变背景色为渐变"/>
+
+    <Button
+        android:id="@+id/recognize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="speechrecognize"/>
 </LinearLayout>
